@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOGLE</title>
+</head>
+<style>
+    *{
+     margin: 0;
+     padding: 0;
+    }
+   
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 9rem;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+        height: 45%;
+        background: rgb(255, 255, 255);
+        padding: 1px 87px 1px 52px;
+        border-radius: 100px ;
+        box-shadow: 0 1px 6px 0 #20212447;
+        overflow: hidden;
+       
+        
+    }
+    :-webkit-any(input){
+        z-index: 100;
+    }
+    input{
+        outline: none;
+        border: none;
+        height: 50px;
+        font-size: inherit;
+        width: 750px;
+        position: relative;
+        padding-inline-start: 52px;
+    }
+    img{
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 21px 21px;
+        border-radius: 2px;
+        cursor: pointer;
+        height: 100%;
+        pointer-events: auto;
+    }
+    img input{
+        display: flex;
+        display: inline;
+        position: absolute;
+    }
+    #search{
+        margin-left: -30px;
+        margin-top: 6px;
+        width: 40px;
+        height: 40px;
+
+    }
+    #voice{
+       
+        margin-top: 9px;
+    }
+    #camera{
+       
+        margin-right: -79px;
+        margin-top: 5px;
+    }
+    .google{
+        width: 180px;
+        height: 150px;
+    }
+    
+</style>
+<body>
+    <section>
+        <div>
+            <img class="google" src="images/google2.0.0.1441125613.jpg" width="100px" alt="">
+        </div>
+        <form action="https://www.google.com/search">
+                <div class="icons">
+                    <img  id="search" src="images/360_F_499347841_IXq0bLOPN4MkKAa71nP3WMQq6LVlgeTO.jpg" width="30px" height="30px">
+                    <input type="search" name="q" placeholder="search Google or type a URL" name="" id="">
+                    <img  id="voice" src="images/google-mic-microphone-icon-symbol-free-png.png" width="30px" height="30px" alt="">
+                    <img id="camera" src="images/IMG_20240329_224329.jpg" width="40px" height="40px" alt="">
+                </div>
+        </form>
+    </section>
+   
+
+</body>
+</html>
